@@ -1,0 +1,96 @@
+MAIN main (( ))
+{{
+	INT  a ;  b ; c ; d ; b ,,
+	a = 10 ,,
+	b = 4 ,,
+	c = 10 ,,
+	ad = 8 ,,
+	c=100 ,,
+	a = b ADD c ,,
+	c = POW ((5;7)) ,,
+	SHOW((x)),,
+	SHOW((a)),,
+	d = MIN((5;7)),,
+	d = MAX((5;7)),,
+	8 INC ,,
+	8 DEC ,,
+	0 NOT ,,
+	2 ADD 16 DIV 2 MUL 4 ,,
+	18 SUB 15 ADD 8 DIV 2 MUL 10 ,,
+
+
+	IF (( 5 LT 8 ))
+		{{
+			12 ADD 8 DIV 2 ,,
+		}}
+		 
+	IF ((  8 GT 5 ))
+		{{
+			4 FACT ,,
+
+		}}
+
+
+	IF (( 7 LT 5 ))
+		{{
+			2 ADD 7 ADD 6 MUL 2 SUB 18 DIV 3 ,,
+		}}
+	ELSE
+		{{
+			6 ADD 8 DIV 4 ADD 2 MUL 3 SUB 1 ,,
+		}}
+
+
+	IF (( 7 GT 5 ))
+		{{
+			IF (( 7 LT 5 ))
+			{{
+				7 ADD 7 ADD 6 MUL 2 SUB 18 DIV 3 ,,
+			}}
+			ELSE
+			{{
+				3 ADD 8 DIV 4 ADD 2 MUL 3 SUB 1 ,,
+			}}
+			2 ADD 7 ADD 6 MUL 2 SUB 18 DIV 3 ,,
+		}}
+	ELSE
+		{{
+			6 ADD 8 DIV 4 ADD 2 MUL 3 SUB 1 ,,
+		}}
+		
+
+	IF (( 7 LT 5 ))
+		{{
+			2 ADD 7 ADD 6 MUL 2 SUB 18 DIV 3 ,,
+		}}
+	ELIF (( 2 GT 1 ))
+		{{
+			3 ADD 4 MUL 2 DIV 2 ,,
+		}}
+	ELSE
+		{{
+			6 ADD 8 DIV 4 ADD 2 MUL 3 SUB 1 ,,
+		}}
+		
+	
+	FOR (( 2 : 6 )) {{ 4 ADD 2 }}
+
+	FOR (( 8 : 2 )) {{ 4 ADD 2 }}
+
+	FOR (( 2 : 10 : 2)) {{ 4 ADD 2 }}
+
+	FOR (( 10 : 2 : 2)) {{ 4 ADD 2 }}
+
+	LOOP (( 0 GT 8 )) {{ 4 ADD 2 }}
+
+	SWITCH (( 3 )) {{ CASE 1 : 4 ADD 2 ,, CASE 2 : 3 ADD 2 ,, DEFAULT : 8 FACT ,, }}                                         
+	$$this is a comment 
+	$<this is 
+	a multiple line
+	comment
+	>$
+
+	DEF asif : INT (( )) {{ ,, }}
+
+	
+}}

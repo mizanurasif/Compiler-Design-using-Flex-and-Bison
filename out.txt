@@ -1,0 +1,102 @@
+[b is already declared]
+
+[valid declaration]
+
+[a---> Value of the variable: 10]	
+
+[b---> Value of the variable: 4]	
+
+[c---> Value of the variable: 10]	
+[ad not declared yet]
+
+[c---> Value of the variable: 100]	
+
+[a---> Value of the variable: 104]	
+
+[c---> Value of the variable: 78125]	
+[x not declared yet]
+
+[a --> Value of the variable: 104]	
+[Min NUM is 5]
+
+[d---> Value of the variable: 5]	
+[MAX NUM is 7]
+
+[d---> Value of the variable: 7]	
+[INC: 9]
+
+[value of expression: 9]
+[DEC: 7
+]
+[value of expression: 7]
+[NOT: 1]
+
+[value of expression: 1]
+
+[value of expression: 34]
+
+[value of expression: 43]
+
+[value of expression in IF: 16]
+
+[value of expression in IF: 24]
+
+[value of expression in ELSE: 13]
+
+[value of expression middle ELSE: 10]
+
+[value of expression in first IF: 15]
+
+[value of expression in ELIF: 7]
+[FOR LOOP FROM 2 to 6]
+2
+3
+4
+5
+
+[value of the expression: 6]
+[FOR LOOP FROM 8 to 2]
+8
+7
+6
+5
+4
+3
+
+[value of the expression: 6]
+
+[FOR LOOP FROM 2 to 10 INCREMENT BY 2]
+2
+4
+6
+8
+
+[value of the expression: 6]
+
+[FOR LOOP FROM 10 to 2 DECREMENT BY 2]
+10
+8
+6
+4
+
+[value of the expression: 6]
+[While LOOP FROM 0 to 8]
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+[value of the expression: 6]
+
+Result in default Value is :  40320
+[SWITCH CASE]
+single line comment
+multiple_line_comment
+[Function Declared]
+
+[Successful compilation]
